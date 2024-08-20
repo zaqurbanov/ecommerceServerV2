@@ -1,7 +1,7 @@
 const express = require('express');
 const { PORT, MONGO_URL } = require('./config/envoirment');
 const Mongo = require('./config/connectMongoDb');
-
+const cors = require('cors')
 const app = express()
 
 
@@ -27,10 +27,10 @@ app.use(express.json({
                 }); 
             }
         } 
-    }));
+    })); 
  
-
-
+ 
+app.use(cors())
 
  
 app.use('/', routes)

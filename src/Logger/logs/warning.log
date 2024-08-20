@@ -41,3 +41,40 @@ Use mongoose.model(name, schema)
 2024-08-19 10:46:47      [31merror[39m: Internal Server Error  updateProduct is not defined  
 2024-08-19 10:52:35      [31merror[39m: Internal Server Error  Cast to ObjectId failed for value "66c23b9e46934050ca8cf638 " (type string) at path "brand" because of "BSONError"  
 2024-08-19 10:52:48      [31merror[39m: Internal Server Error  Cast to ObjectId failed for value "66c23b9e46934050ca8cf638 " (type string) at path "brand" because of "BSONError"  
+2024-08-19 18:44:54      [31merror[39m: Internal Server Error  getaddrinfo ENOTFOUND cluster0-shard-00-01.6lg13.mongodb.net  
+2024-08-19 19:12:35      [31merror[39m: Internal Server Error  D8F10000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\ws\deps\openssl\openssl\ssl\record\rec_layer_s3.c:1590:SSL alert number 80
+  
+2024-08-19 19:20:54      [31merror[39m: Internal Server Error  D8F10000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\ws\deps\openssl\openssl\ssl\record\rec_layer_s3.c:1590:SSL alert number 80
+  
+2024-08-19 19:22:28      [31merror[39m: mongo qosulmadi Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+2024-08-20 01:14:58      [33mwarn[39m: Data can not created Data successfully created : {"success":true,"message":"Data successfully created","data":{"name":"Gaming peripherals","description":"Gaming peripherals","slug":"gaming-peripherals","_id":"66c3b5d18cda9e51b1d03dbc","createdAt":"2024-08-19T21:14:57.991Z","updatedAt":"2024-08-19T21:14:57.991Z","__v":0},"code":200}
+2024-08-20 01:15:00      [33mwarn[39m: Data can not created  "  Gaming peripherals "  already exists : {"succces":false,"message":" \"  Gaming peripherals \"  already exists","error":null,"code":400}
+2024-08-20 01:15:39      [33mwarn[39m: Data can not created Data successfully created : {"success":true,"message":"Data successfully created","data":{"name":"Speakers & Headphones","description":"Speakers & Headphones","slug":"speakers-headphones","_id":"66c3b5fa8cda9e51b1d03dc0","createdAt":"2024-08-19T21:15:38.831Z","updatedAt":"2024-08-19T21:15:38.831Z","__v":0},"code":200}
+2024-08-20 01:16:08      [33mwarn[39m: Data can not created Data successfully created : {"success":true,"message":"Data successfully created","data":{"name":"Power Supplies","description":"Power Supplies","slug":"power-supplies","_id":"66c3b6178cda9e51b1d03dc3","createdAt":"2024-08-19T21:16:07.964Z","updatedAt":"2024-08-19T21:16:07.964Z","__v":0},"code":200}
+2024-08-20 01:30:19      [31merror[39m: Internal Server Error  getaddrinfo EAI_AGAIN cluster0-shard-00-02.6lg13.mongodb.net  
+2024-08-20 01:30:19      [31merror[39m: Internal Server Error  getaddrinfo EAI_AGAIN cluster0-shard-00-02.6lg13.mongodb.net  
+2024-08-20 01:30:41      [31merror[39m: Internal Server Error  getaddrinfo EAI_AGAIN cluster0-shard-00-02.6lg13.mongodb.net  
+2024-08-20 01:30:41      [31merror[39m: Internal Server Error  getaddrinfo EAI_AGAIN cluster0-shard-00-02.6lg13.mongodb.net  
+2024-08-20 01:30:44      [31merror[39m: Internal Server Error  getaddrinfo EAI_AGAIN cluster0-shard-00-02.6lg13.mongodb.net  
+2024-08-20 01:30:44      [31merror[39m: Internal Server Error  getaddrinfo EAI_AGAIN cluster0-shard-00-02.6lg13.mongodb.net  
+2024-08-20 01:30:49      [31merror[39m: Internal Server Error  getaddrinfo EAI_AGAIN cluster0-shard-00-02.6lg13.mongodb.net  
+2024-08-20 01:30:49      [31merror[39m: Internal Server Error  getaddrinfo EAI_AGAIN cluster0-shard-00-02.6lg13.mongodb.net  
+2024-08-20 01:31:11      [31merror[39m: Internal Server Error  getaddrinfo EAI_AGAIN cluster0-shard-00-02.6lg13.mongodb.net  
+2024-08-20 01:31:11      [31merror[39m: Internal Server Error  getaddrinfo EAI_AGAIN cluster0-shard-00-02.6lg13.mongodb.net  
+2024-08-20 01:31:14      [31merror[39m: Internal Server Error  getaddrinfo EAI_AGAIN cluster0-shard-00-02.6lg13.mongodb.net  
+2024-08-20 01:31:14      [31merror[39m: Internal Server Error  getaddrinfo EAI_AGAIN cluster0-shard-00-02.6lg13.mongodb.net  
+2024-08-20 01:31:19      [31merror[39m: Internal Server Error  getaddrinfo EAI_AGAIN cluster0-shard-00-02.6lg13.mongodb.net  
+2024-08-20 01:31:19      [31merror[39m: Internal Server Error  getaddrinfo EAI_AGAIN cluster0-shard-00-02.6lg13.mongodb.net  
+2024-08-20 01:31:48      [31merror[39m: Internal Server Error  getaddrinfo EAI_AGAIN cluster0-shard-00-02.6lg13.mongodb.net  
+2024-08-20 01:31:48      [31merror[39m: Internal Server Error  getaddrinfo EAI_AGAIN cluster0-shard-00-02.6lg13.mongodb.net  
+2024-08-20 01:32:10      [31merror[39m: Internal Server Error  getaddrinfo EAI_AGAIN cluster0-shard-00-02.6lg13.mongodb.net  
+2024-08-20 01:32:10      [31merror[39m: Internal Server Error  getaddrinfo EAI_AGAIN cluster0-shard-00-02.6lg13.mongodb.net  
+2024-08-20 01:32:18      [31merror[39m: Internal Server Error  getaddrinfo EAI_AGAIN cluster0-shard-00-02.6lg13.mongodb.net  
+2024-08-20 01:32:18      [31merror[39m: Internal Server Error  getaddrinfo EAI_AGAIN cluster0-shard-00-02.6lg13.mongodb.net  
+2024-08-20 01:32:23      [31merror[39m: Internal Server Error  getaddrinfo EAI_AGAIN cluster0-shard-00-02.6lg13.mongodb.net  
+2024-08-20 01:32:33      [31merror[39m: Internal Server Error  getaddrinfo EAI_AGAIN cluster0-shard-00-02.6lg13.mongodb.net  
+2024-08-20 01:32:33      [31merror[39m: Internal Server Error  getaddrinfo EAI_AGAIN cluster0-shard-00-02.6lg13.mongodb.net  
+2024-08-20 01:32:40      [31merror[39m: Internal Server Error  getaddrinfo ENOTFOUND cluster0-shard-00-02.6lg13.mongodb.net  
+2024-08-20 01:32:40      [31merror[39m: Internal Server Error  getaddrinfo ENOTFOUND cluster0-shard-00-02.6lg13.mongodb.net  
+2024-08-20 01:34:22      [31merror[39m: Internal Server Error  getaddrinfo EAI_AGAIN cluster0-shard-00-02.6lg13.mongodb.net  
+2024-08-20 01:34:22      [31merror[39m: Internal Server Error  getaddrinfo EAI_AGAIN cluster0-shard-00-02.6lg13.mongodb.net  
