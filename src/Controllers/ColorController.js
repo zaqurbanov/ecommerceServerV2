@@ -10,9 +10,41 @@ const getAllColor = async (req,res)=>{
 }
 
 const createColor = async(req,res)=>{
-    
-}
+        const {name,description} =req.body 
+        const data = {
+            name,
+            description
+        }
+        const result  = await baseService.createData(ColorModel,data)   
+        generateResult(res,result)
+    }
 
+   const deleteColorById = async(req,res)=>{
+    const {id} = req.params
+
+    const result  = await baseService.deleteDataById(ColorModel,id)
+    generateResult(res,result)
+
+
+   }
+
+   const updateColorById = async(req,res)=>{
+
+    const {id} = req.params
+    const {name,description} = req.body
+     
+    const data = {
+        name,
+        description
+    }
+   
+    const result = await baseService.updateDataById(ColorModel,data,id)
+    return generateResult(res,result)
+}
 module.exports = {
-    getAllColor
+    getAllColor,
+    createColor,
+    deleteColorById,
+    updateColorById
+
 }

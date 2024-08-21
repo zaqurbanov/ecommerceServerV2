@@ -7,6 +7,7 @@ const multer = require('multer');
 
 
 const ImageModel = require('../Models/ImageModel')
+const ProductModel = require('../Models/ProductModel')
 
 const cloudinary = require('cloudinary').v2
 
@@ -16,46 +17,39 @@ cloudinary.config({
     api_secret:CLOUDINARY_API_SECRET   
 })
 
-//ssdd
-const upload = multer({dest:'uploads/'})
 
 
 
-const uploadImageToCloudinary = async (filePath,options={})=>{
-
-
+const addImageToProduct = async ({url,alt,productId,colorId,isPrimary})=>{
     try {
-        const result = await cloudinary.uploader.upload(filePath,options)
+            const product = await ProductModel.findById(productId)
+            if(!product)
+                return Response.error('Product Not Found',null,HTTP_CODE.client_error.bad_request)
 
-        return Response.success(messages.post.success,result,HTTP_CODE.success.ok)
-        
+            const newImage = {
+                url,
+                alt,
+                product:productId,
+                color:colorId,
+                isPrimary
+            }
 
+            const createImg = await ImageModel.create(newImage)
+
+            if(!createImg)
+                return Response.error(messages.post.error,null,HTTP_CODE.client_error.bad_request)
+
+            return Response.success(messages.post.success,createImg,HTTP_CODE.success.ok)
     } catch (error) {
-        return getCatchError(error)
+        getCatchError(error)
     }
+
+
 }
 
 
-const createImage = async (data)=>{
 
-    const {url,alt,product,color,isPrimary} = data
-
-    try {
-        if(!url || !data)
-            return Response.error(messages.post.error,null,HTTP_CODE.client_error.bad_request)
-
-        const newImage = await ImageModel.create(data)
-        
-        if (!newImage)
-            return Response.error(messages.post.error, null, HTTP_CODE.client_error.bad_request);
-
-        return Response.success(messages.post.success,newImage,HTTP_CODE.success.created)
-    } catch (error) {
-        
-    }
-}
 
 module.exports = {
-    uploadImageToCloudinary,
-    createImage
+    addImageToProduct
 }
