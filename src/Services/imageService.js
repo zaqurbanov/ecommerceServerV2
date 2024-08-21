@@ -13,10 +13,10 @@ const cloudinary = require('cloudinary').v2
 cloudinary.config({
     cloud_name:CLOUDINARY_NAME,
     api_key:CLOUDINARY_KEY,
-    api_secret:CLOUDINARY_API_SECRET
+    api_secret:CLOUDINARY_API_SECRET   
 })
 
-
+//ssdd
 const upload = multer({dest:'uploads/'})
 
 
