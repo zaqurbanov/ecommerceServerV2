@@ -2,10 +2,12 @@
 
 
 const generateResult = (res,result)=>{
-    console.log(result);
+    
     return res.status(result.code).json({
+        success:result.success,
         statusCode:result.code,
         message:result.message,
+        data_size: result.size || null,
         error:result.error,
         data:result.data
     })

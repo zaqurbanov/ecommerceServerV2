@@ -11,4 +11,4 @@ router.delete('/:id',productTypeController.deleteProductTypeById)
 router.put('/:id',productTypeController.updateProductTypeById)
 router.use("*",notFound)
 
-module.exports = router
+module.exports = router 

@@ -5,7 +5,8 @@ const brandRouter = require('./brandRouter')
 const sizeRouter = require('./sizeRouter')
 const productRouter = require('./productRouter')
 const colorRouter = require('./colorRouter')
-const imageRouter = require('./imageRouter')
+const imageRouter = require('./imageRouter');
+const notFound = require('../middlewares/notFound');
 
 const router = express.Router()
 router.use('/category',categoryRouter)
@@ -15,4 +16,5 @@ router.use('/size',sizeRouter)
 router.use('/product',productRouter) 
 router.use('/color',colorRouter)
 router.use('/image',imageRouter)
+router.use('*',notFound)
 module.exports = router

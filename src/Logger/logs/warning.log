@@ -78,3 +78,165 @@ Use mongoose.model(name, schema)
 2024-08-20 01:32:40      [31merror[39m: Internal Server Error  getaddrinfo ENOTFOUND cluster0-shard-00-02.6lg13.mongodb.net  
 2024-08-20 01:34:22      [31merror[39m: Internal Server Error  getaddrinfo EAI_AGAIN cluster0-shard-00-02.6lg13.mongodb.net  
 2024-08-20 01:34:22      [31merror[39m: Internal Server Error  getaddrinfo EAI_AGAIN cluster0-shard-00-02.6lg13.mongodb.net  
+2024-08-21 12:05:19      [31merror[39m: Internal Server Error  Image validation failed: color: Cast to ObjectId failed for value "[ '66c598b1aaa2990f85c35b43', '66c598bdaaa2990f85c35b46' ]" (type Array) at path "color" because of "BSONError"  
+2024-08-21 12:06:23      [31merror[39m: Internal Server Error  Image validation failed: color: Cast to ObjectId failed for value "[ '66c598b1aaa2990f85c35b43', '66c598bdaaa2990f85c35b46' ]" (type Array) at path "color" because of "BSONError"  
+2024-08-21 12:07:45      [31merror[39m: Internal Server Error  Image validation failed: color: Cast to ObjectId failed for value "[ '66c598b1aaa2990f85c35b43', '66c598bdaaa2990f85c35b46' ]" (type Array) at path "color" because of "BSONError"  
+2024-08-21 12:09:03      [31merror[39m: Internal Server Error  Image validation failed: color: Cast to ObjectId failed for value "[ '66c598b1aaa2990f85c35b43', '66c598bdaaa2990f85c35b46' ]" (type Array) at path "color" because of "BSONError"  
+2024-08-21 12:10:25      [31merror[39m: Internal Server Error  Image validation failed: color: Cast to ObjectId failed for value "[ '66c598b1aaa2990f85c35b43', '66c598bdaaa2990f85c35b46' ]" (type Array) at path "color" because of "BSONError"  
+2024-08-21 12:10:53      [31merror[39m: Internal Server Error  Image validation failed: color: Cast to ObjectId failed for value "[ '66c598b1aaa2990f85c35b43', '66c598bdaaa2990f85c35b46' ]" (type Array) at path "color" because of "BSONError"  
+2024-08-21 12:11:22      [31merror[39m: Internal Server Error  Image validation failed: color: Cast to ObjectId failed for value "[ '66c598b1aaa2990f85c35b43', '66c598bdaaa2990f85c35b46' ]" (type Array) at path "color" because of "BSONError"  
+2024-08-21 12:12:09      [31merror[39m: Internal Server Error  Image validation failed: color: Cast to ObjectId failed for value "[ '66c598b1aaa2990f85c35b43', '66c598bdaaa2990f85c35b46' ]" (type Array) at path "color" because of "BSONError"  
+2024-08-21 12:12:33      [31merror[39m: Internal Server Error  Image validation failed: color: Cast to ObjectId failed for value "[ '66c598b1aaa2990f85c35b43', '66c598bdaaa2990f85c35b46' ]" (type Array) at path "color" because of "BSONError"  
+2024-08-21 12:13:17      [31merror[39m: Internal Server Error  Image validation failed: color: Cast to ObjectId failed for value "[ '66c598b1aaa2990f85c35b43', '66c598bdaaa2990f85c35b46' ]" (type Array) at path "color" because of "BSONError"  
+2024-08-21 12:13:40      [31merror[39m: Internal Server Error  Image validation failed: color: Cast to ObjectId failed for value "[ '66c598b1aaa2990f85c35b43', '66c598bdaaa2990f85c35b46' ]" (type Array) at path "color" because of "BSONError"  
+2024-08-21 12:14:17      [31merror[39m: Internal Server Error  Image validation failed: color: Cast to ObjectId failed for value "[ '66c598b1aaa2990f85c35b43', '66c598bdaaa2990f85c35b46' ]" (type Array) at path "color" because of "BSONError"  
+2024-08-21 12:14:47      [31merror[39m: Internal Server Error  Image validation failed: color: Cast to ObjectId failed for value "[ '66c598b1aaa2990f85c35b43', '66c598bdaaa2990f85c35b46' ]" (type Array) at path "color" because of "BSONError"  
+2024-08-21 12:15:26      [31merror[39m: Internal Server Error  Image validation failed: color: Cast to ObjectId failed for value "[ '66c598b1aaa2990f85c35b43', '66c598bdaaa2990f85c35b46' ]" (type Array) at path "color" because of "BSONError"  
+2024-08-21 12:16:11      [31merror[39m: Internal Server Error  Image validation failed: color: Cast to ObjectId failed for value "[ '66c598b1aaa2990f85c35b43', '66c598bdaaa2990f85c35b46' ]" (type Array) at path "color" because of "BSONError"  
+2024-08-21 12:17:17      [31merror[39m: Internal Server Error  Image validation failed: color: Cast to ObjectId failed for value "[ '66c598b1aaa2990f85c35b43', '66c598bdaaa2990f85c35b46' ]" (type Array) at path "color" because of "BSONError"  
+2024-08-21 12:17:59      [31merror[39m: Internal Server Error  ssImageModel is not defined  
+2024-08-21 12:24:06      [31merror[39m: Internal Server Error  Image validation failed: color: Cast to ObjectId failed for value "[ '66c598b1aaa2990f85c35b43', '66c598bdaaa2990f85c35b46' ]" (type Array) at path "color" because of "BSONError"  
+2024-08-21 12:33:30      [31merror[39m: Internal Server Error  Cannot read properties of null (reading 'length')  
+2024-08-21 12:34:06      [31merror[39m: Internal Server Error  Cannot read properties of null (reading 'length')  
+2024-08-21 12:34:50      [31merror[39m: Internal Server Error  Cannot read properties of null (reading 'length')  
+2024-08-21 12:37:39      [31merror[39m: Internal Server Error  Cannot read properties of null (reading 'length')  
+2024-08-21 14:07:23      [31merror[39m: Internal Server Error  deleteImg is not defined  
+2024-08-21 14:16:25      [31merror[39m: Internal Server Error  Cannot read properties of null (reading 'length')  
+2024-08-21 16:30:27      [31merror[39m: 500 - "[object Object]" is not valid JSON - /product - POST - ::1
+2024-08-21 16:31:11      [31merror[39m: 500 - "[object Object]" is not valid JSON - /product - POST - ::1
+2024-08-21 17:01:34      [31merror[39m: Internal Server Error  read ECONNRESET  
+2024-08-23 00:16:41      [31merror[39m: Internal Server Error  Product validation failed: sizes.0: Cast to [ObjectId] failed for value "[\n' +
+  "  '66c248ee47dc0cd0b0f7efc8,66c248f747dc0cd0b0f7efcb,66c24bd8de30851a202c4f9f'\n" +
+  ']" (type string) at path "sizes.0" because of "CastError", primaryImg: Path `primaryImg` is required.  
+2024-08-23 00:16:55      [31merror[39m: Internal Server Error  Product validation failed: sizes.0: Cast to [ObjectId] failed for value "[\n' +
+  "  '66c248ee47dc0cd0b0f7efc8,66c248f747dc0cd0b0f7efcb,66c24bd8de30851a202c4f9f'\n" +
+  ']" (type string) at path "sizes.0" because of "CastError", primaryImg: Path `primaryImg` is required.  
+2024-08-23 00:18:19      [31merror[39m: Internal Server Error  Product validation failed: sizes.0: Cast to [ObjectId] failed for value "[\n' +
+  "  '66c248ee47dc0cd0b0f7efc8,66c248f747dc0cd0b0f7efcb,66c24bd8de30851a202c4f9f'\n" +
+  ']" (type string) at path "sizes.0" because of "CastError", primaryImg: Path `primaryImg` is required.  
+2024-08-23 00:23:43      [31merror[39m: Internal Server Error  Product validation failed: sizes.0: Cast to [ObjectId] failed for value "[\n' +
+  "  '66c248ee47dc0cd0b0f7efc8,66c248f747dc0cd0b0f7efcb,66c24bd8de30851a202c4f9f'\n" +
+  ']" (type string) at path "sizes.0" because of "CastError", primaryImg: Path `primaryImg` is required.  
+2024-08-23 00:24:08      [31merror[39m: Internal Server Error  Product validation failed: sizes.0: Cast to [ObjectId] failed for value "[\n' +
+  "  '66c248ee47dc0cd0b0f7efc8,66c248f747dc0cd0b0f7efcb,66c24bd8de30851a202c4f9f'\n" +
+  ']" (type string) at path "sizes.0" because of "CastError", primaryImg: Path `primaryImg` is required.  
+2024-08-23 00:24:35      [31merror[39m: Internal Server Error  Product validation failed: sizes.0: Cast to [ObjectId] failed for value "[\n' +
+  "  '66c248ee47dc0cd0b0f7efc8,66c248f747dc0cd0b0f7efcb,66c24bd8de30851a202c4f9f'\n" +
+  ']" (type string) at path "sizes.0" because of "CastError", primaryImg: Path `primaryImg` is required.  
+2024-08-23 00:24:54      [31merror[39m: Internal Server Error  Product validation failed: sizes.0: Cast to [ObjectId] failed for value "[\n' +
+  "  '66c248ee47dc0cd0b0f7efc8,66c248f747dc0cd0b0f7efcb,66c24bd8de30851a202c4f9f'\n" +
+  ']" (type string) at path "sizes.0" because of "CastError", primaryImg: Path `primaryImg` is required.  
+2024-08-23 00:26:01      [31merror[39m: Internal Server Error  Product validation failed: sizes.0: Cast to [ObjectId] failed for value "[\n' +
+  "  '66c248ee47dc0cd0b0f7efc8,66c248f747dc0cd0b0f7efcb,66c24bd8de30851a202c4f9f'\n" +
+  ']" (type string) at path "sizes.0" because of "CastError", primaryImg: Path `primaryImg` is required.  
+2024-08-23 00:27:39      [31merror[39m: Internal Server Error  Product validation failed: sizes.0: Cast to [ObjectId] failed for value "[\n' +
+  "  '66c248ee47dc0cd0b0f7efc8,66c248f747dc0cd0b0f7efcb,66c24bd8de30851a202c4f9f'\n" +
+  ']" (type string) at path "sizes.0" because of "CastError", primaryImg: Path `primaryImg` is required.  
+2024-08-23 00:29:16      [31merror[39m: Internal Server Error  Product validation failed: sizes.0: Cast to [ObjectId] failed for value "[\n' +
+  "  '66c248ee47dc0cd0b0f7efc8,66c248f747dc0cd0b0f7efcb,66c24bd8de30851a202c4f9f'\n" +
+  ']" (type string) at path "sizes.0" because of "CastError", primaryImg: Path `primaryImg` is required.  
+2024-08-23 09:33:39      [31merror[39m: Internal Server Error  Product validation failed: sizes.0: Cast to [ObjectId] failed for value "[ '66c248ee47dc0cd0b0f7efc8,66c248f747dc0cd0b0f7efcb' ]" (type string) at path "sizes.0" because of "CastError", primaryImg: Path `primaryImg` is required.  
+2024-08-23 09:34:08      [31merror[39m: Internal Server Error  Product validation failed: sizes.0: Cast to [ObjectId] failed for value "[ '66c248ee47dc0cd0b0f7efc8,66c248f747dc0cd0b0f7efcb' ]" (type string) at path "sizes.0" because of "CastError", primaryImg: Path `primaryImg` is required.  
+2024-08-23 09:35:11      [31merror[39m: Internal Server Error  Product validation failed: sizes.0: Cast to [ObjectId] failed for value "[ '66c248ee47dc0cd0b0f7efc8,66c248f747dc0cd0b0f7efcb' ]" (type string) at path "sizes.0" because of "CastError", primaryImg: Path `primaryImg` is required.  
+2024-08-23 09:46:39      [31merror[39m: Internal Server Error  Product validation failed: sizes.0: Cast to [ObjectId] failed for value "[\n' +
+  "  '66c248f747dc0cd0b0f7efcb,66c248ee47dc0cd0b0f7efc8,66c2490047dc0cd0b0f7efce'\n" +
+  ']" (type string) at path "sizes.0" because of "CastError", primaryImg: Path `primaryImg` is required.  
+2024-08-23 09:49:55      [31merror[39m: Internal Server Error  Product validation failed: primaryImg: Path `primaryImg` is required.  
+2024-08-23 09:51:53      [31merror[39m: Internal Server Error  Product validation failed: primaryImg: Path `primaryImg` is required.  
+2024-08-23 10:09:58      [31merror[39m: Internal Server Error  read ECONNRESET  
+2024-08-23 10:26:03      [31merror[39m: Internal Server Error  Product validation failed: primaryImg: Path `primaryImg` is required.  
+2024-08-23 12:18:23      [31merror[39m: Internal Server Error  undefined  
+2024-08-23 12:18:53      [31merror[39m: Internal Server Error  undefined  
+2024-08-23 12:19:20      [31merror[39m: Internal Server Error  undefined  
+2024-08-23 12:20:01      [31merror[39m: Internal Server Error  undefined  
+2024-08-23 12:21:59      [31merror[39m: Internal Server Error  undefined  
+2024-08-23 12:22:30      [31merror[39m: Internal Server Error  undefined  
+2024-08-23 12:22:46      [31merror[39m: Internal Server Error  undefined  
+2024-08-23 12:24:34      [31merror[39m: Internal Server Error  imageUrl is not defined  
+2024-08-23 15:30:28      [31merror[39m: Internal Server Error  Cast to ObjectId failed for value "{ _id: 'a' }" (type Object) at path "_id" for model "Product"  
+2024-08-23 15:30:35      [31merror[39m: Internal Server Error  Cast to ObjectId failed for value "{ _id: 'product-test-2' }" (type Object) at path "_id" for model "Product"  
+2024-08-23 15:30:39      [31merror[39m: Internal Server Error  Cast to ObjectId failed for value "{ _id: 'product-test-2' }" (type Object) at path "_id" for model "Product"  
+2024-08-23 15:30:40      [31merror[39m: Internal Server Error  Cast to ObjectId failed for value "{ _id: 'product-test-2' }" (type Object) at path "_id" for model "Product"  
+2024-08-23 15:30:51      [31merror[39m: Internal Server Error  Cast to ObjectId failed for value "{ _id: 'product-test-2' }" (type Object) at path "_id" for model "Product"  
+2024-08-23 15:30:54      [31merror[39m: Internal Server Error  Cast to ObjectId failed for value "{ _id: 'product-test-2' }" (type Object) at path "_id" for model "Product"  
+2024-08-23 15:31:18      [31merror[39m: Internal Server Error  Cast to ObjectId failed for value "{ _id: 'product-test-2' }" (type Object) at path "_id" for model "Product"  
+2024-08-23 15:31:22      [31merror[39m: Internal Server Error  Cast to ObjectId failed for value "{ _id: 'product-test-2' }" (type Object) at path "_id" for model "Product"  
+2024-08-23 15:31:33      [31merror[39m: Internal Server Error  Cast to ObjectId failed for value "{ _id: 'product-test-2' }" (type Object) at path "_id" for model "Product"  
+2024-08-23 15:31:53      [31merror[39m: Internal Server Error  Cast to ObjectId failed for value "{ _id: 'product-test-2' }" (type Object) at path "_id" for model "Product"  
+2024-08-23 15:32:02      [31merror[39m: Internal Server Error  Cast to ObjectId failed for value "{ _id: 'product-test-2' }" (type Object) at path "_id" for model "Product"  
+2024-08-23 15:32:25      [31merror[39m: Internal Server Error  Cast to ObjectId failed for value "{ _id: 'product-test-2' }" (type Object) at path "_id" for model "Product"  
+2024-08-23 15:32:27      [31merror[39m: Internal Server Error  Cast to ObjectId failed for value "{ _id: 'product-test-2' }" (type Object) at path "_id" for model "Product"  
+2024-08-23 15:32:36      [31merror[39m: Internal Server Error  Cast to ObjectId failed for value "{ _id: 'product-test-2' }" (type Object) at path "_id" for model "Product"  
+2024-08-23 15:32:39      [31merror[39m: Internal Server Error  Cast to ObjectId failed for value "{ _id: 'product-test-2' }" (type Object) at path "_id" for model "Product"  
+2024-08-23 15:32:43      [31merror[39m: Internal Server Error  Cast to ObjectId failed for value "{ _id: 'product-test-2' }" (type Object) at path "_id" for model "Product"  
+2024-08-23 15:32:47      [31merror[39m: Internal Server Error  Cast to ObjectId failed for value "{ _id: 'product-test-2' }" (type Object) at path "_id" for model "Product"  
+2024-08-23 15:32:59      [31merror[39m: Internal Server Error  Cast to ObjectId failed for value "{ _id: 'product-test-2' }" (type Object) at path "_id" for model "Product"  
+2024-08-23 15:33:02      [31merror[39m: Internal Server Error  Cast to ObjectId failed for value "{ _id: 'product-test-2' }" (type Object) at path "_id" for model "Product"  
+2024-08-23 15:33:07      [31merror[39m: Internal Server Error  Cast to ObjectId failed for value "{ _id: 'product-test-2' }" (type Object) at path "_id" for model "Product"  
+2024-08-23 15:33:13      [31merror[39m: Internal Server Error  Cast to ObjectId failed for value "{ _id: 'product-test-2' }" (type Object) at path "_id" for model "Product"  
+2024-08-23 15:33:30      [31merror[39m: Internal Server Error  Cast to ObjectId failed for value "{ _id: 'product-test-2' }" (type Object) at path "_id" for model "Product"  
+2024-08-23 15:34:32      [31merror[39m: Internal Server Error  Cast to ObjectId failed for value "{ _id: 'product-test-2' }" (type Object) at path "_id" for model "Product"  
+2024-08-23 15:42:21      [31merror[39m: Internal Server Error  Cast to ObjectId failed for value "{ _id: 'dsd' }" (type Object) at path "_id" for model "Product"  
+2024-08-23 15:42:44      [31merror[39m: Internal Server Error  Cast to ObjectId failed for value "{ _id: 'dsd' }" (type Object) at path "_id" for model "Product"  
+2024-08-23 15:42:45      [31merror[39m: Internal Server Error  Cast to ObjectId failed for value "{ _id: 'dsd' }" (type Object) at path "_id" for model "Product"  
+2024-08-23 15:42:48      [31merror[39m: Internal Server Error  Cast to ObjectId failed for value "{ _id: 'dsd' }" (type Object) at path "_id" for model "Product"  
+2024-08-23 15:42:55      [31merror[39m: Internal Server Error  Cast to ObjectId failed for value "{ _id: 'dsd' }" (type Object) at path "_id" for model "Product"  
+2024-08-23 15:42:59      [31merror[39m: Internal Server Error  Cast to ObjectId failed for value "{ _id: 'dsd' }" (type Object) at path "_id" for model "Product"  
+2024-08-23 15:43:01      [31merror[39m: Internal Server Error  Cast to ObjectId failed for value "{ _id: 'dsd' }" (type Object) at path "_id" for model "Product"  
+2024-08-23 15:43:02      [31merror[39m: Internal Server Error  Cast to ObjectId failed for value "{ _id: 'dsd' }" (type Object) at path "_id" for model "Product"  
+2024-08-23 15:43:06      [31merror[39m: Internal Server Error  Cast to ObjectId failed for value "{ _id: 'dsd' }" (type Object) at path "_id" for model "Product"  
+2024-08-23 15:43:09      [31merror[39m: Internal Server Error  Cast to ObjectId failed for value "{ _id: 'dsd' }" (type Object) at path "_id" for model "Product"  
+2024-08-23 15:43:14      [31merror[39m: Internal Server Error  Cast to ObjectId failed for value "{ _id: 'dsd' }" (type Object) at path "_id" for model "Product"  
+2024-08-23 15:43:15      [31merror[39m: Internal Server Error  Cast to ObjectId failed for value "{ _id: 'dsd' }" (type Object) at path "_id" for model "Product"  
+2024-08-23 15:43:16      [31merror[39m: Internal Server Error  Cast to ObjectId failed for value "{ _id: 'dsd' }" (type Object) at path "_id" for model "Product"  
+2024-08-23 15:43:20      [31merror[39m: Internal Server Error  Cast to ObjectId failed for value "{ _id: 'dsd' }" (type Object) at path "_id" for model "Product"  
+2024-08-23 15:43:22      [31merror[39m: Internal Server Error  Cast to ObjectId failed for value "{ _id: 'dsd' }" (type Object) at path "_id" for model "Product"  
+2024-08-23 15:43:37      [31merror[39m: Internal Server Error  Cast to ObjectId failed for value "{ _id: 'dsd' }" (type Object) at path "_id" for model "Product"  
+2024-08-23 15:43:45      [31merror[39m: Internal Server Error  Cast to ObjectId failed for value "{ _id: 'dsd' }" (type Object) at path "_id" for model "Product"  
+2024-08-23 15:43:51      [31merror[39m: Internal Server Error  Cast to ObjectId failed for value "{ _id: 'dsd' }" (type Object) at path "_id" for model "Product"  
+2024-08-23 15:43:55      [31merror[39m: Internal Server Error  Cast to ObjectId failed for value "{ _id: 'dsd' }" (type Object) at path "_id" for model "Product"  
+2024-08-23 15:44:00      [31merror[39m: Internal Server Error  Cast to ObjectId failed for value "{ _id: 'dsd' }" (type Object) at path "_id" for model "Product"  
+2024-08-23 15:44:17      [31merror[39m: Internal Server Error  Cast to ObjectId failed for value "{ _id: 'dsd' }" (type Object) at path "_id" for model "Product"  
+2024-08-23 15:44:59      [31merror[39m: Internal Server Error  Cast to ObjectId failed for value "{ _id: '66c848db59207380c86d1920dsd' }" (type Object) at path "_id" for model "Product"  
+2024-08-23 15:45:17      [31merror[39m: Internal Server Error  Cast to ObjectId failed for value "{ _id: '66c848db59207380c86d1920dsd' }" (type Object) at path "_id" for model "Product"  
+2024-08-23 15:45:26      [31merror[39m: Internal Server Error  Cast to ObjectId failed for value "{ _id: '66c848db59207380c86d1920dsd' }" (type Object) at path "_id" for model "Product"  
+2024-08-23 15:45:27      [31merror[39m: Internal Server Error  Cast to ObjectId failed for value "{ _id: '66c848db59207380c86d1920dsd' }" (type Object) at path "_id" for model "Product"  
+2024-08-23 15:45:31      [31merror[39m: Internal Server Error  Cast to ObjectId failed for value "{ _id: '66c848db59207380c86d1920dsd' }" (type Object) at path "_id" for model "Product"  
+2024-08-23 16:58:10      [31merror[39m: Internal Server Error  Cannot read properties of null (reading 'length')  
+2024-08-23 17:02:37      [31merror[39m: Internal Server Error  Cannot read properties of null (reading 'length')  
+2024-08-23 17:14:38      [31merror[39m: Internal Server Error  Cast to ObjectId failed for value "{ _id: '445' }" (type Object) at path "_id" for model "Product"  
+2024-08-23 20:38:37      [31merror[39m: Internal Server Error  Cannot read properties of null (reading 'length')  
+2024-08-23 20:38:52      [31merror[39m: Internal Server Error  Cannot read properties of null (reading 'length')  
+2024-08-23 20:42:22      [31merror[39m: Internal Server Error  primaryImage is not defined  
+2024-08-23 21:33:52      [31merror[39m: Internal Server Error  read ECONNRESET  
+2024-08-23 21:33:52      [31merror[39m: Internal Server Error  read ECONNRESET  
+2024-08-23 21:57:31      [31merror[39m: Internal Server Error  Cannot read properties of null (reading 'length')  
+2024-08-23 22:55:06      [31merror[39m: Internal Server Error  type is not defined  
+2024-08-23 22:55:51      [31merror[39m: Internal Server Error  type is not defined  
+2024-08-23 23:46:28      [31merror[39m: Internal Server Error  Product validation failed: sizes.0: Cast to [ObjectId] failed for value "[ '' ]" (type string) at path "sizes.0" because of "CastError"  
+2024-08-23 23:46:48      [31merror[39m: Internal Server Error  Product validation failed: sizes.0: Cast to [ObjectId] failed for value "[ '' ]" (type string) at path "sizes.0" because of "CastError"  
+2024-08-23 23:48:27      [31merror[39m: Internal Server Error  Product validation failed: sizes.0: Cast to [ObjectId] failed for value "[ '' ]" (type string) at path "sizes.0" because of "CastError"  
+2024-08-23 23:49:38      [31merror[39m: Internal Server Error  Product validation failed: sizes.0: Cast to [ObjectId] failed for value "[ '' ]" (type string) at path "sizes.0" because of "CastError"  
+2024-08-23 23:50:56      [31merror[39m: Internal Server Error  Product validation failed: sizes.0: Cast to [ObjectId] failed for value "[ '' ]" (type string) at path "sizes.0" because of "CastError"  
+2024-08-23 23:51:37      [31merror[39m: Internal Server Error  Product validation failed: sizes.0: Cast to [ObjectId] failed for value "[ '' ]" (type string) at path "sizes.0" because of "CastError"  
+2024-08-23 23:52:16      [31merror[39m: Internal Server Error  Product validation failed: sizes.0: Cast to [ObjectId] failed for value "[ '' ]" (type string) at path "sizes.0" because of "CastError"  
+2024-08-23 23:52:43      [31merror[39m: Internal Server Error  Product validation failed: sizes.0: Cast to [ObjectId] failed for value "[ '' ]" (type string) at path "sizes.0" because of "CastError"  
+2024-08-23 23:53:31      [31merror[39m: Internal Server Error  Product validation failed: sizes.0: Cast to [ObjectId] failed for value "[ '' ]" (type string) at path "sizes.0" because of "CastError"  
+2024-08-23 23:56:09      [31merror[39m: Internal Server Error  Assignment to constant variable.  
+2024-08-23 23:56:36      [31merror[39m: Internal Server Error  Product validation failed: sizes.0: Cast to [ObjectId] failed for value "[ '' ]" (type string) at path "sizes.0" because of "CastError"  
+2024-08-23 23:57:49      [31merror[39m: Internal Server Error  Product validation failed: sizes.0: Cast to [ObjectId] failed for value "[ '' ]" (type string) at path "sizes.0" because of "CastError"  
+2024-08-23 23:58:55      [31merror[39m: Internal Server Error  Product validation failed: sizes.0: Cast to [ObjectId] failed for value "[ '' ]" (type string) at path "sizes.0" because of "CastError"  
+2024-08-23 23:59:40      [31merror[39m: Internal Server Error  Product validation failed: sizes.0: Cast to [ObjectId] failed for value "[ '' ]" (type string) at path "sizes.0" because of "CastError"  
+2024-08-24 18:45:01      [31merror[39m: Internal Server Error  Product validation failed: sizes.0: Cast to [ObjectId] failed for value "[ 'No size' ]" (type string) at path "sizes.0" because of "CastError"  
+2024-08-24 22:59:49      [31merror[39m: Internal Server Error  Cannot read properties of undefined (reading 'tempFilePath')  
+2024-08-24 23:01:02      [31merror[39m: Internal Server Error  Cannot read properties of undefined (reading 'tempFilePath')  
+2024-08-24 23:02:37      [31merror[39m: Internal Server Error  Cannot read properties of undefined (reading 'tempFilePath')  
+2024-08-24 23:03:03      [31merror[39m: Internal Server Error  Cannot read properties of undefined (reading 'tempFilePath')  
+2024-08-24 23:10:40      [31merror[39m: Internal Server Error  Missing required parameter - file  
+2024-08-24 23:11:51      [31merror[39m: Internal Server Error  Missing required parameter - file  
+2024-08-24 23:19:00      [31merror[39m: Internal Server Error  Missing required parameter - file  
+2024-08-24 23:24:17      [31merror[39m: Internal Server Error  Missing required parameter - file  
+2024-08-24 23:24:27      [31merror[39m: Internal Server Error  Missing required parameter - file  
+2024-08-24 23:24:46      [31merror[39m: Internal Server Error  Missing required parameter - file  
+2024-08-24 23:25:36      [31merror[39m: Internal Server Error  Missing required parameter - file  
+2024-08-24 23:25:50      [31merror[39m: Internal Server Error  Missing required parameter - file  

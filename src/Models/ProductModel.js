@@ -31,8 +31,13 @@ const ProductModel = new mongoose.Schema({
         sizes:[{
             type:mongoose.Schema.Types.ObjectId,
             ref:'Size',
+           
             
         }],
+        type:{
+            type:mongoose.Schema.Types.ObjectId,
+            ref:'ProducType'
+        },
         stock:{
             type:Number,
             default:0,
@@ -42,6 +47,10 @@ const ProductModel = new mongoose.Schema({
             type:Boolean,
             default:true
         },
+        primaryImage:{
+            type:String,
+            required:true
+        },
         // images:[{
         //     type:mongoose.Schema.Types.ObjectId,
         //     ref:'Image',
@@ -50,9 +59,9 @@ const ProductModel = new mongoose.Schema({
             type:String,
             required:true
         }
-
+ 
 
 },{timestamps:true})
 
 
-module.exports = mongoose.model('Product',ProductModel)
+module.exports = mongoose.model('Product',ProductModel) 

@@ -1,6 +1,7 @@
 const express = require('express');
 const router = express.Router();
-const colorController = require('../Controllers/ColorController')
+const colorController = require('../Controllers/ColorController');
+const notFound = require('../middlewares/notFound');
 router.get('/',colorController.getAllColor)
 router.post('/',colorController.createColor);
 router.delete('/:id',colorController.deleteColorById);

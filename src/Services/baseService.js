@@ -32,7 +32,7 @@ const createData = async (model,data) =>{
             description,
             slug:createSlug
         }
-
+        
         const isExsistData = await model.findOne({slug:newData.slug})
         if(isExsistData){
             

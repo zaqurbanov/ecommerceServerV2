@@ -1,16 +1,29 @@
 const express = require('express');
-const { PORT, MONGO_URL } = require('./config/envoirment');
+const { PORT, MONGO_URL, CLOUDINARY_NAME, CLOUDINARY_KEY, CLOUDINARY_API_SECRET } = require('./config/envoirment');
 const Mongo = require('./config/connectMongoDb');
 const cors = require('cors')
 const app = express()
+
+const fileUpload = require('express-fileupload');
+const path = require('path');
+const cloudinary = require('cloudinary').v2
 
 
 const routes = require('./Routers/routes');
 const messages = require('./config/Messages');
 const HTTP_CODE = require('./config/HTTP_CODE');
 const logger = require('./Logger/logger');
-Mongo.connect(MONGO_URL);
 
+cloudinary.config({
+    cloud_name: CLOUDINARY_NAME,
+    api_key: CLOUDINARY_KEY,
+    api_secret: CLOUDINARY_API_SECRET,
+  });
+Mongo.connect(MONGO_URL);
+app.use(fileUpload({
+    useTempFiles: true,
+  tempFileDir: '/tmp/'
+}))
 app.use(express.json({ 
         strict: true, 
        
@@ -28,7 +41,7 @@ app.use(express.json({
             }
         } 
     })); 
- 
+ app.use('/uploads',express.static(path.join(__dirname,'uploads'))) 
  
 app.use(cors())
 

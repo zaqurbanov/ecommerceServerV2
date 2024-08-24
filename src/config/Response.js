@@ -5,13 +5,14 @@ class Response {
     constructor(){
 
     }
-
+ 
 
     static success = (message,data=null,code=200)=>{
 
         return {
             success:true,
             message,
+            size:data.length,
             data,
             code
         }
@@ -19,7 +20,7 @@ class Response {
 
     static error = (message,error=null,code=404)=>{
         return{
-            succces:false,
+            success:false,
             message,
             error,
             code

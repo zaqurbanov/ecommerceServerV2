@@ -20,22 +20,27 @@ cloudinary.config({
 
 
 
-const addImageToProduct = async ({url,alt,productId,colorId,isPrimary})=>{
+const addImageToProduct = async (url,alt,productId,colorId,isPrimary)=>{
     try {
             const product = await ProductModel.findById(productId)
+           
+        
             if(!product)
                 return Response.error('Product Not Found',null,HTTP_CODE.client_error.bad_request)
-
+            
             const newImage = {
                 url,
                 alt,
                 product:productId,
                 color:colorId,
-                isPrimary
+                isPrimary 
             }
+            
 
             const createImg = await ImageModel.create(newImage)
 
+               
+            
             if(!createImg)
                 return Response.error(messages.post.error,null,HTTP_CODE.client_error.bad_request)
 
@@ -48,8 +53,22 @@ const addImageToProduct = async ({url,alt,productId,colorId,isPrimary})=>{
 }
 
 
+const getAllImage = async()=>{
+        try {
+            const images = await ImageModel.find()
+            if(!images)
+                return Response.error(messages.get.error,null,HTTP_CODE.client_error.bad_request)
+
+            return Response.success(messages.get.ok,images,HTTP_CODE.success.ok)
+
+        } catch (error) {
+            getCatchError(error)
+        }
+}
+
 
 
 module.exports = {
-    addImageToProduct
+    addImageToProduct,
+    getAllImage
 }
