@@ -29,8 +29,8 @@ const createSize = async(req,res)=>{
 }
 
 const getSizeBySlug = async(req,res)=>{
-    const {slug} = req.params
-    const result =await baseService.getDataBySlug(SizeModel,slug);
+    const {id} = req.params
+    const result =await baseService.getDataBySlug(SizeModel,id);
 
     generateResult(res,result)
 

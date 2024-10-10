@@ -9,7 +9,26 @@ const productService = require('../Services/productService');
 
 
 const getAllProduct = async(req,res)=>{
-    const result = await productService.getAllProduct()
+
+    const {brand,category,size,type} = req.query
+    const {currentPage,limitPage} = req.query
+    const query ={}
+
+    if(brand){
+        query.brand = brand
+    }
+    if(category){
+        query.category = category
+    }
+
+    if(size){
+        query.size = category
+    }
+    if(type){
+        query.type = type
+    }
+    
+    const result = await productService.getAllProduct(query,currentPage,limitPage)
     generateResult(res,result)
 
 }
@@ -17,10 +36,10 @@ const getAllProduct = async(req,res)=>{
 const createProduct = async (req,res)=>{
 
     const {name,price,type,description,brand,category,colors,sizes,stock,}=req.body
-    
+       
     const image = req.files
     
-  
+    
     const parsedSizes = sizes && sizes.length > 0 ? sizes.split(',').filter(size => size && size.trim() !== '') : undefined;
     const data = {
         name,
@@ -50,8 +69,9 @@ const getProductById  = async (req,res)=>{
 
 const updateProductById = async (req,res)=>{
     const {id} = req.params;
-    const {name,price,description,brand,category,colors,sizes,stock,images}=req.body
- 
+    const {name,price,description,brand,category,colors,sizes,stock}=req.body
+        const primaryImage = req.files
+        const parsedSizes = sizes && sizes.length > 0 ? sizes.split(',').filter(size => size && size.trim() !== '') : undefined;
     const data = {
         name,
         price,
@@ -59,10 +79,11 @@ const updateProductById = async (req,res)=>{
         brand,
         category,
         // colors,
-        sizes,
-        stock,
-        // images
+        sizes:parsedSizes,
+        stock, 
+        primaryImage
     }
+    console.log(data);
     const result = await productService.updateProductById(id,data)
 
     generateResult(res,result)

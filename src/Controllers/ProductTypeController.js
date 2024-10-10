@@ -22,8 +22,8 @@ const baseService = require('../Services/baseService')
 
     const getProductTypeBySlug = async(req,res)=>{
 
-        const {slug} = req.params
-        const result = await baseService.getDataBySlug(ProductTypeModel,slug)
+        const {id} = req.params
+        const result = await baseService.getDataBySlug(ProductTypeModel,id)
       
         generateResult(res,result)
 

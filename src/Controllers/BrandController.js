@@ -27,8 +27,8 @@ const createBrand = async (req, res) => {
 
 const getBrandBySlug = async (req, res) => {
 
-    const { slug } = req.params
-    const result = await baseService.getDataBySlug(BrandModel,slug)
+    const { id } = req.params
+    const result = await baseService.getDataBySlug(BrandModel,id)
 
     generateResult(res, result)
 

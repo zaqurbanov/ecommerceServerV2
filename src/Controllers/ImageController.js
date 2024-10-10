@@ -8,9 +8,10 @@ const baseService = require('../Services/baseService')
 
 const addImageToProduct = async(req,res) =>{
 
-        const {url,alt,productId,colorId,isPrimary} = req.body
+        const {productId,sizeId} = req.body
+        const {images} = req.files;
         
-           const result = await  imageService.addImageToProduct(url,alt,productId,colorId,isPrimary)
+           const result = await  imageService.addImageToProduct(productId,sizeId,images)
              generateResult(res,result) 
 }
 
@@ -20,8 +21,9 @@ const getAllImages =async (req,res)=>{
          generateResult(res,result)
 }
 
-const deleteImg  = async(id)=>{
-        const result = await baseService.deleteDataById(ImageModel,id)
+const deleteImg  = async(req,res)=>{
+                const {id} = req.params
+        const result = await imageService.deleteImageById(id)
 
         generateResult(res,result)
 }

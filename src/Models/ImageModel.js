@@ -21,10 +21,16 @@ const ImageModel = new mongoose.Schema({
         ref:'Color',
         required:false
     },
-    isPrimary:{
-        type:Boolean,
-        default:false
+    size:{
+        type:mongoose.Schema.Types.ObjectId,
+        ref:'Size',
+        required:false
+    },
+    public_id:{
+        type:String,
+        required:true
     }
+ 
 },{timestamps:true})
 
 module.exports = mongoose.model('Image',ImageModel)

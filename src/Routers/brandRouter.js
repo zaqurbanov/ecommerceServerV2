@@ -6,8 +6,8 @@ const notFound = require('../middlewares/notFound');
 const router = express.Router()
 
 
-router.get('/',brandController.getAllBrand);
-router.get('/:slug',brandController.getBrandBySlug);
+router.get('/', brandController.getAllBrand);
+router.get('/:id',brandController.getBrandBySlug);
 router.post('/',brandController.createBrand);
 router.delete('/:id',brandController.deleteBrandById);
 router.put('/:id',brandController.updateBrandById)

@@ -3,6 +3,7 @@ const messages = require("../config/Messages")
 const Response = require("../config/Response")
 const getCatchError = require("../helpers/catchErrorGenerator")
 const getCreateSlug = require("../helpers/slugCreator")
+const ProductModel = require("../Models/ProductModel")
 const ProductTypeModel = require("../Models/ProductTypeModel")
 
 
@@ -16,7 +17,7 @@ const getAllData = async(model)=>{
         return Response.success(messages.get.success,data,HTTP_CODE.success.ok)
     
     } catch (error) {
-        return getCatchError(error)
+        return getCatchError(error.message)
     }
 
 }
@@ -44,14 +45,14 @@ const createData = async (model,data) =>{
         if(result)
             return Response.success(messages.post.success,result,HTTP_CODE.success.ok)
     } catch (error) {
-        return getCatchError(error)
+        return getCatchError(error.message)
     }
  
 }
-const getDataBySlug = async(model,slug)=>{
+const getDataBySlug = async(model,id)=>{
     
     try {
-        const data = await model.findOne({slug})
+        const data = await model.findById(id)
         
 
 if(!data)
@@ -59,7 +60,7 @@ if(!data)
 
     return Response.success(messages.get.success,data,HTTP_CODE.success.ok)
 } catch (error) {
-    return getCatchError(error)
+    return getCatchError(error.message)
 
 }
 }
@@ -69,17 +70,18 @@ const deleteDataById =async (model,id)=>{
         
     try {
         const data = await model.findById(id)
+
         if(!data)
             return Response.error(messages.get.error,messages.delete.error,HTTP_CODE.client_error.bad_request)
-
+         await ProductModel.deleteMany({brand:id})
         const deletedData = await model.findByIdAndDelete(id);
-
+ 
         if(!deletedData)
             return Response.error(messages.delete.error,null,HTTP_CODE.client_error.bad_request)
 
         return Response.success(messages.delete.success,null,HTTP_CODE.success.ok)
 } catch (error) {
-    return getCatchError(error)
+    return getCatchError(error.message)
 }
 
 
@@ -110,7 +112,7 @@ const updateDataById = async(model,data,id)=>{
             return Response.success(messages.updated.success,update,HTTP_CODE.success.created)
 
     } catch (error) {
-        return getCatchError(error)
+        return getCatchError(error.message)
     }
 }
 

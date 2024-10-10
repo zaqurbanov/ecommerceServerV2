@@ -34,6 +34,14 @@ const ProductModel = new mongoose.Schema({
            
             
         }],
+        totalRating:{
+            type:Number,
+            default:0
+        },
+        totalRatingAvarege:{
+            type:Number,
+            default:0
+        },
         type:{
             type:mongoose.Schema.Types.ObjectId,
             ref:'ProducType'
@@ -50,6 +58,10 @@ const ProductModel = new mongoose.Schema({
         primaryImage:{
             type:String,
             required:true
+        },
+        public_id:{
+            type:String,
+                required:true
         },
         // images:[{
         //     type:mongoose.Schema.Types.ObjectId,

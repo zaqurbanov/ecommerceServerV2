@@ -1,4 +1,4 @@
-
+ 
 
 class Response {
 
@@ -7,15 +7,17 @@ class Response {
     }
  
 
-    static success = (message,data=null,code=200)=>{
+    static success = (message, data=null,code=200,totalPage=null,page=null)=>{
 
         return {
             success:true,
             message,
-            size:data.length,
+            size:data ? data.length : "",
             data,
+            totalPage:totalPage || 1,
+            page: page ||1,
             code
-        }
+        } 
     }   
 
     static error = (message,error=null,code=404)=>{

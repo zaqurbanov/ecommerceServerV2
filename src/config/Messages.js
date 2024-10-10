@@ -17,7 +17,11 @@ const messages = {
     updated:{
         success:"Data updated successfully",
         error:"Data updated unsuccessfully"
-    }
+    },
+    typeNumber:"Data type are failed. please field correct type"
+
+    
+
 }
 
 module.exports = messages

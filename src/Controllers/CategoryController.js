@@ -3,6 +3,7 @@ const baseService = require('../Services/baseService')
 const generateResult = require('../helpers/resultGenerator');
 const logger = require('../Logger/logger');
 const CategoryModel = require('../Models/CategoryModel');
+const Response = require('../config/Response');
 
 
 
@@ -20,10 +21,10 @@ const createCategory = async(req,res)=>{
             name,
             description
         }
-        
+        console.log(data);
         const result = await baseService.createData(CategoryModel,data)
         
-        if(result.succces){
+        if(result){
             logger.info(`Created Data : ${JSON.stringify(result)}`)
         }else{
             logger.warn(`Data can not created ${result.message} : ${JSON.stringify(result)}`)
@@ -35,8 +36,8 @@ const createCategory = async(req,res)=>{
 
 const getCategoryBySlug = async (req,res)=>{
 
-const {slug }= req.params
-    const result = await baseService.getDataBySlug(CategoryModel,slug)
+const {id }= req.params
+    const result = await baseService.getDataBySlug(CategoryModel,id)
 
   return generateResult(res,result)
 
@@ -58,14 +59,28 @@ const updateCategoryById = async(req,res)=>{
         name,
         description
     }
+    
    
     const result = await baseService.updateDataById(CategoryModel,data,id)
     return generateResult(res,result)
+}
+
+const getThreeCategory = async(req,res)=>{
+        try {
+            const getAllCategory = await CategoryModel.find()
+            const result = getAllCategory.slice(-3)
+            const resultt = Response.success("D",result,200);
+            generateResult(res,resultt)
+            
+        } catch (error) {
+                
+        }
 }
 module.exports = {
     getAllCategory,
     createCategory,
     getCategoryBySlug,
     deleteCategoryById,
-    updateCategoryById
+    updateCategoryById,
+    getThreeCategory
 }

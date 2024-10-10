@@ -7,6 +7,8 @@ const generateResult = (res,result)=>{
         success:result.success,
         statusCode:result.code,
         message:result.message,
+        totalPage:result.totalPage,
+        page:result.page,
         data_size: result.size || null,
         error:result.error,
         data:result.data
