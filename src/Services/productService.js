@@ -45,12 +45,6 @@ const createProduct = async (data) => {
         })
 
 
-
-
-
-
-
-
         const create = await ProductModel.create({
             ...data,
             primaryImage: result.secure_url,
@@ -63,11 +57,7 @@ const createProduct = async (data) => {
         if (!create)
             return Response.error(messages.post.error, null, HTTP_CODE.client_error.bad_request)
 
-
-
         return Response.success(messages.post.success, create, HTTP_CODE.success.created)
-
-
 
     } catch (error) {
 
